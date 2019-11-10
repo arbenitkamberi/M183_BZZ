@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "INAlpvjiyiTY49oLouVkbm_99w_BfkhU",
+    "session": {
+      "cookie": {
+        "originalMaxAge": 600000,
+        "expires": "2019-11-10T03:22:25.250Z",
+        "secure": false,
+        "httpOnly": true,
+        "path": "/",
+        "sameSite": "none"
+      },
+      "userId": 1
+    },
+    "expires": 1573441945250
+  },
+  {
+    "_id": "jb7ZWhld10aKOQDSzTZ8tvDg4um24Gh3",
+    "session": {
+      "cookie": {
+        "originalMaxAge": 600000,
+        "expires": "2019-11-10T03:14:54.577Z",
+        "secure": false,
+        "httpOnly": true,
+        "path": "/",
+        "sameSite": "none"
+      },
+      "userId": 2
+    },
+    "expires": 1573441494577
+  },
+  {
+    "_id": "9La0RfWEfIYRDqy6WXpVNxwjZ_ZC50mZ",
+    "session": {
+      "cookie": {
+        "originalMaxAge": 599999,
+        "expires": "2019-11-10T16:00:14.768Z",
+        "secure": false,
+        "httpOnly": true,
+        "path": "/",
+        "sameSite": "none"
+      },
+      "userId": 1
+    },
+    "expires": 1573487414769
+  }
+]

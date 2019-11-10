@@ -1,0 +1,15 @@
+.reservationContainer{
+    color: white;
+}
+
+.reservationContainer table{
+    padding-left: 12.5%;
+}
+
+.errorMsg{
+    color: red;
+}
+
+.okMsg{
+    color: green;
+}

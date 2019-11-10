@@ -1,0 +1,12 @@
+2019-11-10 16:49:03.350 INFO  Email arben_a.k@hotmail.com nicht gefunden oder falsches Passwort 
+2019-11-10 16:49:10.047 TRACE Benutzer mit Email arben_a.k@hotmail.com angemeldet, role: ADMIN 
+2019-11-10 16:49:12.770 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 0 
+2019-11-10 16:49:37.392 INFO  Neuer Benutzer wird angelegt 
+2019-11-10 16:49:37.396 INFO  Neuer Benutzer angelegt: {"id":2,"geschlecht":"M","vorname":"omar","nachname":"zahir","email":"o.z@hotmail.com","passwort":"326f882a02d0192e91bf321100cfef69080779d69b56742eb4e53371cce79b12","tel":"0793251749","role":"USER","reservationen":[]} 
+2019-11-10 16:49:57.674 TRACE Neue Reservation wird angelegt: {"datum":"2019-11-15","uhrzeit":"11:51","dauer":"60m","nachricht":"Haare und Bart"} 
+2019-11-10 16:49:57.682 INFO  Neue Reservation: {"id":1,"bestaetigt":false,"datum":"2019-11-15","uhrzeit":"11:51","dauer":"60m","nachricht":"Haare und Bart"} 
+2019-11-10 16:50:10.789 TRACE Benutzer mit Email arben_a.k@hotmail.com angemeldet, role: ADMIN 
+2019-11-10 16:50:12.316 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 1 
+2019-11-10 16:50:14.753 TRACE Reservationsbestätigung: Reservation mit ID 1 des Benutzers mit ID 2 
+2019-11-10 16:50:14.756 INFO  Reservation mit ID 1 des Benutzers mit ID 2 bestätigt 
+2019-11-10 16:50:14.769 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 0 
