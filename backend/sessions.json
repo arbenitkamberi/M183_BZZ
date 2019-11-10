@@ -1,47 +1,32 @@
 [
   {
-    "_id": "INAlpvjiyiTY49oLouVkbm_99w_BfkhU",
+    "_id": "_5e0bD_SS1drufosQvF9a7ZU14uZCsZW",
     "session": {
       "cookie": {
         "originalMaxAge": 600000,
-        "expires": "2019-11-10T03:22:25.250Z",
+        "expires": "2019-11-10T19:51:56.490Z",
         "secure": false,
         "httpOnly": true,
         "path": "/",
         "sameSite": "none"
       },
-      "userId": 1
+      "userId": 4
     },
-    "expires": 1573441945250
+    "expires": 1573501316491
   },
   {
-    "_id": "jb7ZWhld10aKOQDSzTZ8tvDg4um24Gh3",
+    "_id": "E4ufU1XwSebGtZxf1jj31FUsV680WnZt",
     "session": {
       "cookie": {
         "originalMaxAge": 600000,
-        "expires": "2019-11-10T03:14:54.577Z",
+        "expires": "2019-11-10T19:51:40.741Z",
         "secure": false,
         "httpOnly": true,
         "path": "/",
         "sameSite": "none"
       },
-      "userId": 2
+      "userId": 4
     },
-    "expires": 1573441494577
-  },
-  {
-    "_id": "9La0RfWEfIYRDqy6WXpVNxwjZ_ZC50mZ",
-    "session": {
-      "cookie": {
-        "originalMaxAge": 599999,
-        "expires": "2019-11-10T16:00:14.768Z",
-        "secure": false,
-        "httpOnly": true,
-        "path": "/",
-        "sameSite": "none"
-      },
-      "userId": 1
-    },
-    "expires": 1573487414769
+    "expires": 1573501300741
   }
 ]

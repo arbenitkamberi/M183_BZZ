@@ -17,7 +17,7 @@ class Registrieren extends Component {
                 nachname: "",
                 email: "",
                 passwort: "",
-                tel: "",
+                tel: ""
             },
             invalidFields: [],
             errorMsg: null,
@@ -99,7 +99,7 @@ class Registrieren extends Component {
                         <tbody>
                             <tr className="errorMsg"><td colSpan={3}>{this.state.errorMsg}</td></tr>
                             <tr>
-                                <td className="loginText">Geschlecht</td>
+                                <td className="loginText">Geschlecht:</td>
                                 <td>
                                     <select value={this.state.geschlecht} onChange={this.setGeschlecht}>
                                         <option value="M">Männlich</option>

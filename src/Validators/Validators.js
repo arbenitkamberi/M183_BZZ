@@ -3,10 +3,10 @@ const validateUser = (user) => {
     if(!exists(user.geschlecht) || !user.geschlecht.match(/^[MWA]{1}$/g)){
       errors.push("geschlecht");
     }
-    if(!exists(user.vorname) || !user.vorname.match(/^[\w\s]+$/g)){
+    if(!exists(user.vorname) || !user.vorname.match(/^[A-Za-z\s]+$/g)){
       errors.push("vorname");
     }
-    if(!exists(user.nachname) || !user.nachname.match(/^[\w\s]+$/g)){
+    if(!exists(user.nachname) || !user.nachname.match(/^[A-Za-z\s]+$/g)){
       errors.push("nachname")
     }
     if(!exists(user.email) || !user.email.match(/^.+@.+\..+$/g)){
@@ -23,7 +23,6 @@ const validateUser = (user) => {
 
 const validateReservation = (reservation) => {
   let errors = [];
-  console.log(reservation.datum);
   if(!exists(reservation.datum) || !reservation.datum.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/g)){
     errors.push("datum");
   }

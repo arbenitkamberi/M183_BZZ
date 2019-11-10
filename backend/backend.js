@@ -73,7 +73,6 @@ db.defaults({
 
 
 app.post('/loginUser', function (req, res) {
-  console.log(JSON.stringify({email: req.body.email, passwort: sha256(req.body.passwort)}));
   let user = db.get("users").find({email: req.body.email, passwort: sha256(req.body.passwort)}).value();
   if(typeof user !== 'undefined'){
     req.session.userId = user.id;

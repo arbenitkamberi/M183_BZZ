@@ -12,7 +12,6 @@
       "reservationen": []
     },
     {
-      "id": 2,
       "geschlecht": "M",
       "vorname": "omar",
       "nachname": "zahir",
@@ -24,14 +23,45 @@
         {
           "id": 1,
           "bestaetigt": true,
-          "datum": "2019-11-15",
-          "uhrzeit": "11:51",
-          "dauer": "60m",
-          "nachricht": "Haare und Bart"
+          "datum": "2019-11-11",
+          "uhrzeit": "19:35",
+          "dauer": "15m",
+          "nachricht": "Reservation"
+        },
+        {
+          "id": 2,
+          "bestaetigt": false,
+          "datum": "2019-11-13",
+          "uhrzeit": "19:35",
+          "dauer": "15m",
+          "nachricht": "Reservation"
         }
-      ]
+      ],
+      "id": 2
+    },
+    {
+      "geschlecht": "M",
+      "vorname": "Patrick",
+      "nachname": "Scheidegger",
+      "email": "p.s@hotmail.com",
+      "passwort": "c11e14343ccf58ee744e6a96fa2e10fafe0a29a38843310c43475da194b1120b",
+      "tel": "0793251749",
+      "role": "ADMIN",
+      "reservationen": [],
+      "id": 3
+    },
+    {
+      "id": 4,
+      "geschlecht": "M",
+      "vorname": "Elio",
+      "nachname": "Baserga",
+      "email": "e.b@hotmail.com",
+      "passwort": "b529a74e409459382069eeeee5780aa565aedd984bc40dbec080ddac59e0e764",
+      "tel": "0793251749",
+      "role": "USER",
+      "reservationen": []
     }
   ],
-  "usersIdSequence": 2,
-  "reservationenIdSequence": 1
+  "usersIdSequence": 4,
+  "reservationenIdSequence": 2
 }

@@ -1,12 +1,16 @@
-2019-11-10 16:49:03.350 INFO  Email arben_a.k@hotmail.com nicht gefunden oder falsches Passwort 
-2019-11-10 16:49:10.047 TRACE Benutzer mit Email arben_a.k@hotmail.com angemeldet, role: ADMIN 
-2019-11-10 16:49:12.770 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 0 
-2019-11-10 16:49:37.392 INFO  Neuer Benutzer wird angelegt 
-2019-11-10 16:49:37.396 INFO  Neuer Benutzer angelegt: {"id":2,"geschlecht":"M","vorname":"omar","nachname":"zahir","email":"o.z@hotmail.com","passwort":"326f882a02d0192e91bf321100cfef69080779d69b56742eb4e53371cce79b12","tel":"0793251749","role":"USER","reservationen":[]} 
-2019-11-10 16:49:57.674 TRACE Neue Reservation wird angelegt: {"datum":"2019-11-15","uhrzeit":"11:51","dauer":"60m","nachricht":"Haare und Bart"} 
-2019-11-10 16:49:57.682 INFO  Neue Reservation: {"id":1,"bestaetigt":false,"datum":"2019-11-15","uhrzeit":"11:51","dauer":"60m","nachricht":"Haare und Bart"} 
-2019-11-10 16:50:10.789 TRACE Benutzer mit Email arben_a.k@hotmail.com angemeldet, role: ADMIN 
-2019-11-10 16:50:12.316 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 1 
-2019-11-10 16:50:14.753 TRACE Reservationsbestätigung: Reservation mit ID 1 des Benutzers mit ID 2 
-2019-11-10 16:50:14.756 INFO  Reservation mit ID 1 des Benutzers mit ID 2 bestätigt 
-2019-11-10 16:50:14.769 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 0 
+2019-11-10 20:36:35.480 INFO  Neuer Benutzer wird angelegt 
+2019-11-10 20:36:35.486 INFO  Neuer Benutzer angelegt: {"geschlecht":"M","vorname":"omar","nachname":"zahir","email":"o.z@hotmail.com","passwort":"326f882a02d0192e91bf321100cfef69080779d69b56742eb4e53371cce79b12","tel":"0793251749","role":"USER","reservationen":[],"id":2} 
+2019-11-10 20:36:50.575 TRACE Neue Reservation wird angelegt: {"datum":"2019-11-11","uhrzeit":"19:35","dauer":"15m","nachricht":"Reservation"} 
+2019-11-10 20:36:50.580 INFO  Neue Reservation: {"id":1,"bestaetigt":false,"datum":"2019-11-11","uhrzeit":"19:35","dauer":"15m","nachricht":"Reservation"} 
+2019-11-10 20:36:53.874 TRACE Neue Reservation wird angelegt: {"datum":"2019-11-13","uhrzeit":"19:35","dauer":"15m","nachricht":"Reservation"} 
+2019-11-10 20:36:53.880 INFO  Neue Reservation: {"id":2,"bestaetigt":false,"datum":"2019-11-13","uhrzeit":"19:35","dauer":"15m","nachricht":"Reservation"} 
+2019-11-10 20:39:34.420 INFO  Neuer Benutzer wird angelegt 
+2019-11-10 20:39:34.427 INFO  Neuer Benutzer angelegt: {"geschlecht":"M","vorname":"Patrick","nachname":"Scheidegger","email":"p.s@hotmail.com","passwort":"c11e14343ccf58ee744e6a96fa2e10fafe0a29a38843310c43475da194b1120b","tel":"0793251749","role":"ADMIN","reservationen":[],"id":3} 
+2019-11-10 20:39:57.733 TRACE Benutzer mit Email p.s@hotmail.com angemeldet, role: ADMIN 
+2019-11-10 20:40:01.358 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 1 
+2019-11-10 20:40:08.185 TRACE Reservationsbestätigung: Reservation mit ID 1 des Benutzers mit ID 2 
+2019-11-10 20:40:08.187 INFO  Reservation mit ID 1 des Benutzers mit ID 2 bestätigt 
+2019-11-10 20:40:08.198 TRACE Es wurden Benutzer mit Reservationen abgerufen, anzahl zurückgegebener Benutzer: 1 
+2019-11-10 20:41:40.733 INFO  Neuer Benutzer wird angelegt 
+2019-11-10 20:41:40.740 INFO  Neuer Benutzer angelegt: {"id":4,"geschlecht":"M","vorname":"Elio","nachname":"Baserga","email":"e.b@hotmail.com","passwort":"b529a74e409459382069eeeee5780aa565aedd984bc40dbec080ddac59e0e764","tel":"0793251749","role":"USER","reservationen":[]} 
+2019-11-10 20:41:56.490 TRACE Benutzer mit Email e.b@hotmail.com angemeldet, role: USER 

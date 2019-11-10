@@ -17,7 +17,7 @@ class Reservation extends Component {
                 datum: "",
                 uhrzeit: "",
                 dauer: "empty",
-                nachricht: "",
+                nachricht: ""
             },
             invalidFields: [],
             message: null
